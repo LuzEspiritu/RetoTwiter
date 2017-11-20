@@ -1,0 +1,103 @@
+*{ 
+    margin:0;
+    box-sizing: border-box;
+    font-family:Courier New, Courier, monospace;
+}
+
+
+header{
+    width: 100%;
+    height:10%;
+    background: #1DA1F2 ;
+}
+header h1{
+    margin: 1%;
+    color: white;
+    position: absolute;
+    right: 50%;
+}
+textarea {
+    resize: none;
+    /*padding: 5%;*/
+    overflow:hidden;
+    margin:1% auto;
+    width: 100%;
+    font-size: 15px;
+    line-height: 1.5;
+    border: none;
+  }
+
+#container{
+    background: url(../assets/images/paisaje.jpg);
+    height: 90%;
+}
+.box-container{
+    display: flex;
+    width: 100%;
+    height:35%;
+    border-radius: 5px;
+}
+.presentacion{
+    margin: 1% 0.2% 1% 3%;
+    width: 45%;
+    height: 90%;
+    background: white;
+    border-radius: 5px;
+     }
+.twitter-form{
+    position: relative;
+    margin: 1% 0 1% 1%;
+    width: 45%;
+    height: 90%;
+    background: white;
+    border-radius: 5px;}
+.form{
+    margin: 1%;
+    width: 98%;
+    height: 75%;
+     /*outline: 1px solid green;}*/}
+    .tweetform-content{
+    width: 98%;
+    height: 100%;
+    margin: 5px 5px;}
+.btn-form{
+    margin: 2%;
+    width: 98%;
+    height: 15%;
+    position: absolute;
+    bottom: 0;
+    /*outline: 1px solid red;*/
+    }
+#btn-save{
+    width: 20%;
+    height: 100%;
+}
+#character-counter{
+    width:10%;
+    height: 100%;
+    position: relative;
+    left: 65%;
+    border: none;}
+.container-twits{
+    position: relative;
+    left: 48.5%;
+    margin:1% 0 1% 1%;
+    width: 45%;
+    height: 40%;
+}
+    .content-new-twit{
+    margin:1% auto;
+    width: 100%;
+    height: 40px;
+    background: white;
+    border-radius: 5px;
+}
+.red{
+    color:red;
+}
+.blue{
+    color:blue;
+}
+.black{
+    color:black;
+}
