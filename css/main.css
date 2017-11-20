@@ -3,22 +3,22 @@
     box-sizing: border-box;
     font-family:Courier New, Courier, monospace;
 }
-
+h1,h2{
+    font-size: 25px;
+    padding: 1%;
+}
 
 header{
     width: 100%;
-    height:10%;
+   /* height:10%;*/
     background: #1DA1F2 ;
 }
 header h1{
-    margin: 1%;
     color: white;
-    position: absolute;
-    right: 50%;
+    text-align: center;
 }
 textarea {
     resize: none;
-    /*padding: 5%;*/
     overflow:hidden;
     margin:1% auto;
     width: 100%;
@@ -27,68 +27,56 @@ textarea {
     border: none;
   }
 
-#container{
+body{
     background: url(../assets/images/paisaje.jpg);
-    height: 90%;
+
 }
 .box-container{
-    display: flex;
-    width: 100%;
-    height:35%;
+    width: 90%;
+    margin: 0 auto;
     border-radius: 5px;
+    overflow:hidden;
 }
 .presentacion{
-    margin: 1% 0.2% 1% 3%;
-    width: 45%;
-    height: 90%;
+    margin-top: 1%;
+    float: left;
+    width: 49%;
     background: white;
-    border-radius: 5px;
-     }
+    border-radius: 5px;}
 .twitter-form{
-    position: relative;
-    margin: 1% 0 1% 1%;
-    width: 45%;
-    height: 90%;
+    margin-top: 1%;
+    float: right;
+    width: 49%;
     background: white;
     border-radius: 5px;}
 .form{
     margin: 1%;
-    width: 98%;
-    height: 75%;
-     /*outline: 1px solid green;}*/}
+    width: 98%;}
     .tweetform-content{
     width: 98%;
-    height: 100%;
     margin: 5px 5px;}
 .btn-form{
     margin: 2%;
-    width: 98%;
-    height: 15%;
-    position: absolute;
-    bottom: 0;
-    /*outline: 1px solid red;*/
+   width:98%;
     }
 #btn-save{
-    width: 20%;
-    height: 100%;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border:none;
+    
 }
 #character-counter{
     width:10%;
-    height: 100%;
-    position: relative;
-    left: 65%;
     border: none;}
 .container-twits{
-    position: relative;
-    left: 48.5%;
-    margin:1% 0 1% 1%;
-    width: 45%;
-    height: 40%;
-}
+    margin-left:50%;
+    width: 44%;}
+
     .content-new-twit{
-    margin:1% auto;
+    padding: 10px;  
+    word-wrap:break-word;
+    margin:2%;
     width: 100%;
-    height: 40px;
     background: white;
     border-radius: 5px;
 }
